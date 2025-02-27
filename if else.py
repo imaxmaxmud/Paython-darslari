@@ -43,6 +43,7 @@
 x=int(input("x ni kiriting : "))
 y=int(input("y ni kiriting : "))
 print("x>y") if x>y else print("x<y")
+print(x)
     
     
     
