@@ -1,0 +1,11 @@
+mevalar=["olma","Olcha","Gilos","Nok"]
+narhi=[10000,3000,5000,15000]
+mevalar[3]='shaftoli'
+print(mevalar[3])
+print(mevalar)
+mevalar.append('uzum')
+mevalar.append("o`rik")
+mevalar.append('Banan')
+mevalar.insert(3,"mandarin")
+mevalar.insert(-1,"ananas")
+print(mevalar)
