@@ -17,3 +17,5 @@ def bahola(ismlar):
     return baholar
 scores=bahola(ismlar[:])  # [:] bu belgi orqali biz ismlar degan dan nusha ko`chiramiz
 print(scores)
+
+talabalar=ismlar[:]
