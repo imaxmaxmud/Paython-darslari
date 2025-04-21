@@ -17,6 +17,7 @@ class Talaba:
         self.fam=yangi_fam 
     def info_print(self):
         return f"Talaba {self.ism} {self.fam} tugulgan yili {self.tyil} bosqich: {self.bosqich}"
+   
 class Fan:
     " Fanga oid klass yaratish"
     def __init__(self,nomi):
@@ -33,6 +34,8 @@ class Fan:
         " Fanga yozilgan talabalar sonini ko`rish"
         x=self.talabalar_soni
         return x
+    def get_info_students(self):
+        return [talaba.info_print() for talaba in self.talabalar]
           
 student1=Talaba('Mahmudjon','Sadikov',1991)
 # print(student1.info_print())
