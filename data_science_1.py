@@ -12,5 +12,5 @@ x=[
 y=['yaxshi','yomon','o`rtacha','yaxshi','o`rtacha','yomon','yaxshi','o`rtacha','yomon','yomon']
 
 clf=clf.fit(x,y)
-taxmin=clf.predict([[1,1,1]])
+taxmin=clf.predict([[250,250,250]])
 print(taxmin)
