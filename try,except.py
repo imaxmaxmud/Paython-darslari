@@ -14,10 +14,49 @@ print(bugun.year)
 # telefon=input(f"Hurmatli {ism} {fam} siz {tyil} da tug`ilgan ekansiz tel ni kiriting :")
 
 
+# yosh=input(" Yoshingizni kiriting : ")
+# try:
+#     yosh=int(yosh)
+# except:
+#     print(" Siz butun son kiritmadingiz : ")
+# else:
+#     print(f" Siz {bugun.year-(int(yosh))} da tug`ilgansiz ")
+    
+# mevalar=['olma','anor','anjir','uzum','gilos']
+# try:
+#     print(mevalar[4])
+# except IndexError:
+#     print(f" Ro`yhatda {len(mevalar)} ta meva bor xolos")
+
+# user={
+      
+#       'username':'SadikovMaxmudjon',
+#       'status':'PhD student',
+#       'email':'imaxmaxmud@gmail.com',
+#       'phone':'+998944048822'
+      
+#       }
+# key=input(" kalit so`zni kiriting Masalan: username, status, email, phone : ")
+
+# try:
+#     print(f" Foydalanuvchi : {user[key]}")
+    
+# excep KeyError:
+    
 yosh=input(" Yoshingizni kiriting : ")
 try:
     yosh=int(yosh)
-except:
-    print(" Siz butun son kiritmadingiz : ")
+    
+except ValueError:
+    print(" Butun son kiriting ! ")
 else:
-    print(f" Siz {bugun.year-(int(yosh))} da tug`ilgansiz ")
+    print(f"Siz {bugun.year-yosh} da tug`ilgansiz")
+
+
+
+
+
+
+
+
+  
